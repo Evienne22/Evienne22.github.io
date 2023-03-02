@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <div class="section">
+        <h2>Información Personal</h2>
+        <p>
+            <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="Foto de perfil" >
+            <p>Nombre: Robin Mitchell</p>
+            <p>Dirección: 7480 Stevens Creek Blvd</p>
+            <p><i class="icon">📞</i> Teléfono: (205) 646-4097</p>
+            <p><i class="icon">📧</i> <button onclick="showEmail()">Ver Correo</button></p>
+      </div>
+      <div class="section">
+        <h2>Educación</h2>
+        <h3>Maestría en Ciencias de la Computación</h3>
+        <p>
+            <li>Universidad de Kansas, 2020-2022</li>
+        </p>
+        <h3>Bachillerato en Ciencias de la Computación</h3>
+        <p>
+            <li>Secundaria de Revelación, 2016-2020</li>
+        </p>
+      </div>
+      <div class="section">
+        <h2>Experiencia laboral</h2>
+        <h3>Empresa Google</h3>
+        <p><li>Cargo: Desarrollador web</li></p>
+        <p>Período: Enero 2020 - Actualidad</p>
+        <h3>Empresa Yahoo</h3>
+        <p><li>Cargo: Técnico en soporte</li></p>
+        <p>Período: Julio 2016 - Diciembre 2019</p>
+      </div>
+      <div class="section">
+        <h2>Habilidades</h2>
+        <p>
+          <i class="icon">💻</i> Desarrollo web
+        </p>
+        <p>
+          <i class="icon">📈</i> Análisis de datos
+        </p>
+      </div>
+      <script src = "JS/function.js"></script>
+</body>
+</html>
