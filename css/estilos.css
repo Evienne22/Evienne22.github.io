@@ -1,0 +1,56 @@
+
+
+body {
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold
+}
+body {
+  background-color: #f2f2f2;
+}
+h1, h2, h3 {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+.icon {
+  padding-right: 10px;
+}
+.section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  margin-right: 20px;
+  float: center;
+  box-shadow: 0px 0px 10px #CCC;
+}
+.personal-info {
+  text-align: center ;
+  padding-left: 20px;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+button {
+  padding: 10px 20px;
+  background-color: #3F51B5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px #CCC;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
