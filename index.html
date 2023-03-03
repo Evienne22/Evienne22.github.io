@@ -29,23 +29,35 @@
         </p>
       </div>
       <div class="section">
-        <h2>Experiencia laboral</h2>
-        <h3>Empresa Google</h3>
-        <p><li>Cargo: Desarrollador web</li></p>
-        <p>Período: Enero 2020 - Actualidad</p>
-        <h3>Empresa Yahoo</h3>
-        <p><li>Cargo: Técnico en soporte</li></p>
-        <p>Período: Julio 2016 - Diciembre 2019</p>
+        <div>
+          <h3>Experiencia laboral</h3>
+          <p>Soy desarrollador web en una empresa internacional.</p>
+          <button onclick="expandirInfo('expLaboral')">Leer más</button>
+          <div id="expLaboral" style="display:none;">
+            <p>Trabajé en equipo para crear aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, y ReactJS. También colaboré en la optimización de la interfaz de usuario y en la implementación de nuevas funcionalidades. Me aseguré de que todas las soluciones fueran escalables y estuvieran bien documentadas para facilitar su mantenimiento en el futuro.</p>
+            <ul>
+              <h3>Empresa Google</h3>
+              <p>Cargo: Desarrollador web</p>
+              <p>Período: Enero 2020 - Actualidad</p>
+              <h3>Empresa Yahoo</h3>
+              <p>Cargo: Técnico en soporte</p>
+              <p>Período: Julio 2016 - Diciembre 2019</p>
+            </ul>
+          </div>
+        </div>
+              
       </div>
       <div class="section">
-        <h2>Habilidades</h2>
-        <p>
-          <i class="icon">💻</i> Desarrollo web
-        </p>
-        <p>
-          <i class="icon">📈</i> Análisis de datos
-        </p>
+        <div>
+          <h3>Habilidades</h3>
+          <button onclick="mostrarHabilidades()">Mostrar habilidades</button>
+          <ul id="listaHabilidades" style="display:none;">
+            <i class="icon">💻</i> Desarrollo web
+            <i class="icon">📈</i> Análisis de datos
+            <i class="icon">📈</i> Estadisticas
+          </ul>
+        </div>
       </div>
       <script src = "JS/function.js"></script>
-</body>
+    </body>
 </html>
